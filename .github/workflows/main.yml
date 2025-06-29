@@ -29,5 +29,5 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
             app-name: ${{ vars.APP_NAME }}
-            publisprofile: ${{ secrets.PUBLISH_PROFILE }}
+            publish-profile: ${{ secrets.PUBLISH_PROFILE }}
             package: .
